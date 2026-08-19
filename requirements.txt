@@ -2,3 +2,5 @@ pandas
 numpy
 pydantic
 python-dotenv
+sqlalchemy
+psycopg

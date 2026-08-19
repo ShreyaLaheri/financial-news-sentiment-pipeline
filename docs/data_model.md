@@ -27,7 +27,7 @@ A single news article can be associated with multiple companies.
 
 | Field | Type | Description |
 |---|---|---|
-|id | UUID | Unique identifier | 
+| id | UUID | Unique identifier | 
 | news_id | UUID | Unique identifier for news item | 
 | company_id | string | Id of the comapny | 
 | confidence | float | Confidence of ticker maping |
@@ -50,7 +50,7 @@ Stores raw stock-market data.
 | Field | Type | Description |
 |---|---|---|
 | id | UUID | Unique identifier |
-| ticker | string|Stock ticker associated with company |
+| company_id | string | Id of the comapny | 
 | timestamp | datetime | Time associated with the market-price observation   |
 | open | float | price at the beginning of the interval |
 | high | float | highest price during the interval |
